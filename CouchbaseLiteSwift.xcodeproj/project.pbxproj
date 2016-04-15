@@ -11,6 +11,22 @@
 		79C7334E1CC0CE270092E2F4 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */; };
 		79C738651CC0D1320092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */; };
 		79C738681CC0D1880092E2F4 /* CouchbaseLiteSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */; };
+		79C7387B1CC0D3D30092E2F4 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C7386A1CC0D3D30092E2F4 /* CouchbaseLite.framework */; };
+		79C7387C1CC0D3D30092E2F4 /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C7386B1CC0D3D30092E2F4 /* CouchbaseLiteListener.framework */; };
+		79C7387D1CC0D3D30092E2F4 /* CBLEncryptionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C7386D1CC0D3D30092E2F4 /* CBLEncryptionController.h */; };
+		79C7387F1CC0D3D30092E2F4 /* CBLIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C7386F1CC0D3D30092E2F4 /* CBLIncrementalStore.h */; };
+		79C738811CC0D3D30092E2F4 /* CBLJSONValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C738711CC0D3D30092E2F4 /* CBLJSONValidator.h */; };
+		79C738831CC0D3D30092E2F4 /* CBLRegisterJSViewCompiler.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C738731CC0D3D30092E2F4 /* CBLRegisterJSViewCompiler.h */; };
+		79C738841CC0D3D30092E2F4 /* CBLUICollectionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C738741CC0D3D30092E2F4 /* CBLUICollectionSource.h */; };
+		79C738861CC0D3D30092E2F4 /* libCBLForestDBStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738761CC0D3D30092E2F4 /* libCBLForestDBStorage.a */; };
+		79C738871CC0D3D30092E2F4 /* libCBLJSViewCompiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738771CC0D3D30092E2F4 /* libCBLJSViewCompiler.a */; };
+		79C738881CC0D3D30092E2F4 /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738781CC0D3D30092E2F4 /* libsqlcipher.a */; };
+		79C738891CC0D3D30092E2F4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79C738791CC0D3D30092E2F4 /* LICENSE.txt */; };
+		79C7388E1CC0D65B0092E2F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C7388D1CC0D65B0092E2F4 /* CFNetwork.framework */; };
+		79C738901CC0D6620092E2F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C7388F1CC0D6620092E2F4 /* Security.framework */; };
+		79C738921CC0D66A0092E2F4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738911CC0D66A0092E2F4 /* SystemConfiguration.framework */; };
+		79C738941CC0D6DC0092E2F4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738931CC0D6DC0092E2F4 /* libsqlite3.tbd */; };
+		79C738961CC0D6E50092E2F4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C738951CC0D6E50092E2F4 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +47,28 @@
 		79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftTests.swift; sourceTree = "<group>"; };
 		79C733541CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwift.swift; sourceTree = "<group>"; };
+		79C7386A1CC0D3D30092E2F4 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		79C7386B1CC0D3D30092E2F4 /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
+		79C7386D1CC0D3D30092E2F4 /* CBLEncryptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLEncryptionController.h; sourceTree = "<group>"; };
+		79C7386E1CC0D3D30092E2F4 /* CBLEncryptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLEncryptionController.m; sourceTree = "<group>"; };
+		79C7386F1CC0D3D30092E2F4 /* CBLIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIncrementalStore.h; sourceTree = "<group>"; };
+		79C738701CC0D3D30092E2F4 /* CBLIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIncrementalStore.m; sourceTree = "<group>"; };
+		79C738711CC0D3D30092E2F4 /* CBLJSONValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLJSONValidator.h; sourceTree = "<group>"; };
+		79C738721CC0D3D30092E2F4 /* CBLJSONValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLJSONValidator.m; sourceTree = "<group>"; };
+		79C738731CC0D3D30092E2F4 /* CBLRegisterJSViewCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLRegisterJSViewCompiler.h; sourceTree = "<group>"; };
+		79C738741CC0D3D30092E2F4 /* CBLUICollectionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLUICollectionSource.h; sourceTree = "<group>"; };
+		79C738751CC0D3D30092E2F4 /* CBLUICollectionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLUICollectionSource.m; sourceTree = "<group>"; };
+		79C738761CC0D3D30092E2F4 /* libCBLForestDBStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCBLForestDBStorage.a; sourceTree = "<group>"; };
+		79C738771CC0D3D30092E2F4 /* libCBLJSViewCompiler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCBLJSViewCompiler.a; sourceTree = "<group>"; };
+		79C738781CC0D3D30092E2F4 /* libsqlcipher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsqlcipher.a; sourceTree = "<group>"; };
+		79C738791CC0D3D30092E2F4 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		79C7387A1CC0D3D30092E2F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		79C7388C1CC0D49C0092E2F4 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		79C7388D1CC0D65B0092E2F4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		79C7388F1CC0D6620092E2F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		79C738911CC0D66A0092E2F4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		79C738931CC0D6DC0092E2F4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		79C738951CC0D6E50092E2F4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +76,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C738961CC0D6E50092E2F4 /* libz.tbd in Frameworks */,
+				79C738941CC0D6DC0092E2F4 /* libsqlite3.tbd in Frameworks */,
+				79C738921CC0D66A0092E2F4 /* SystemConfiguration.framework in Frameworks */,
+				79C738901CC0D6620092E2F4 /* Security.framework in Frameworks */,
+				79C7388E1CC0D65B0092E2F4 /* CFNetwork.framework in Frameworks */,
+				79C738871CC0D3D30092E2F4 /* libCBLJSViewCompiler.a in Frameworks */,
+				79C738881CC0D3D30092E2F4 /* libsqlcipher.a in Frameworks */,
+				79C738861CC0D3D30092E2F4 /* libCBLForestDBStorage.a in Frameworks */,
+				79C7387C1CC0D3D30092E2F4 /* CouchbaseLiteListener.framework in Frameworks */,
+				79C7387B1CC0D3D30092E2F4 /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +105,7 @@
 			children = (
 				79C733451CC0CE270092E2F4 /* Sources */,
 				79C7335D1CC0CF830092E2F4 /* Vendors */,
+				79C738971CC0D73A0092E2F4 /* Frameworks */,
 				79C733511CC0CE270092E2F4 /* Tests */,
 				79C733441CC0CE270092E2F4 /* Products */,
 			);
@@ -93,8 +142,61 @@
 		79C7335D1CC0CF830092E2F4 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				79C7388B1CC0D4820092E2F4 /* CouchbaseLite */,
+				79C738691CC0D3D30092E2F4 /* couchbase-lite-ios */,
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		79C738691CC0D3D30092E2F4 /* couchbase-lite-ios */ = {
+			isa = PBXGroup;
+			children = (
+				79C7386A1CC0D3D30092E2F4 /* CouchbaseLite.framework */,
+				79C7386B1CC0D3D30092E2F4 /* CouchbaseLiteListener.framework */,
+				79C7386C1CC0D3D30092E2F4 /* Extras */,
+				79C738791CC0D3D30092E2F4 /* LICENSE.txt */,
+				79C7387A1CC0D3D30092E2F4 /* README.md */,
+			);
+			path = "couchbase-lite-ios";
+			sourceTree = "<group>";
+		};
+		79C7386C1CC0D3D30092E2F4 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				79C7386D1CC0D3D30092E2F4 /* CBLEncryptionController.h */,
+				79C7386E1CC0D3D30092E2F4 /* CBLEncryptionController.m */,
+				79C7386F1CC0D3D30092E2F4 /* CBLIncrementalStore.h */,
+				79C738701CC0D3D30092E2F4 /* CBLIncrementalStore.m */,
+				79C738711CC0D3D30092E2F4 /* CBLJSONValidator.h */,
+				79C738721CC0D3D30092E2F4 /* CBLJSONValidator.m */,
+				79C738731CC0D3D30092E2F4 /* CBLRegisterJSViewCompiler.h */,
+				79C738741CC0D3D30092E2F4 /* CBLUICollectionSource.h */,
+				79C738751CC0D3D30092E2F4 /* CBLUICollectionSource.m */,
+				79C738761CC0D3D30092E2F4 /* libCBLForestDBStorage.a */,
+				79C738771CC0D3D30092E2F4 /* libCBLJSViewCompiler.a */,
+				79C738781CC0D3D30092E2F4 /* libsqlcipher.a */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		79C7388B1CC0D4820092E2F4 /* CouchbaseLite */ = {
+			isa = PBXGroup;
+			children = (
+				79C7388C1CC0D49C0092E2F4 /* module.map */,
+			);
+			path = CouchbaseLite;
+			sourceTree = "<group>";
+		};
+		79C738971CC0D73A0092E2F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C738951CC0D6E50092E2F4 /* libz.tbd */,
+				79C738931CC0D6DC0092E2F4 /* libsqlite3.tbd */,
+				79C738911CC0D66A0092E2F4 /* SystemConfiguration.framework */,
+				79C7388F1CC0D6620092E2F4 /* Security.framework */,
+				79C7388D1CC0D65B0092E2F4 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,7 +206,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C7387F1CC0D3D30092E2F4 /* CBLIncrementalStore.h in Headers */,
+				79C738811CC0D3D30092E2F4 /* CBLJSONValidator.h in Headers */,
+				79C738831CC0D3D30092E2F4 /* CBLRegisterJSViewCompiler.h in Headers */,
+				79C738841CC0D3D30092E2F4 /* CBLUICollectionSource.h in Headers */,
 				79C733471CC0CE270092E2F4 /* CouchbaseLiteSwift.h in Headers */,
+				79C7387D1CC0D3D30092E2F4 /* CBLEncryptionController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C738891CC0D3D30092E2F4 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,12 +435,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendors/couchbase-lite-ios",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendors/couchbase-lite-ios/Extras",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Vendors/CouchbaseLite";
 			};
 			name = Debug;
 		};
@@ -343,12 +462,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendors/couchbase-lite-ios",
+				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendors/couchbase-lite-ios/Extras",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Vendors/CouchbaseLite";
 			};
 			name = Release;
 		};

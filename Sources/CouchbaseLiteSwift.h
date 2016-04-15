@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CouchbaseLite/CouchbaseLite.h>
 
 //! Project version number for CouchbaseLiteSwift.
 FOUNDATION_EXPORT double CouchbaseLiteSwiftVersionNumber;

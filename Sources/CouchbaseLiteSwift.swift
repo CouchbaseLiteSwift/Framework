@@ -6,6 +6,9 @@
 //  Copyright © 2016 MANDELKIND. All rights reserved.
 //
 
+import CouchbaseLite
+
+
 private var DatabaseDefaultConfigurationSingleton: CLSDatabaseConfiguration!
 
 public typealias CLSDatabaseSchemaMigration = (CLSDatabase,UInt64) throws -> Void
