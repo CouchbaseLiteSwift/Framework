@@ -49,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		792953971CC1211400F18FCF /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
-		792953981CC1211400F18FCF /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
 		792953A61CC1211400F18FCF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		792953A71CC1211400F18FCF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		792953B81CC1215F00F18FCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -105,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				792953971CC1211400F18FCF /* CouchbaseLite.framework */,
-				792953981CC1211400F18FCF /* CouchbaseLiteListener.framework */,
 				792953A61CC1211400F18FCF /* LICENSE.txt */,
 				792953A71CC1211400F18FCF /* README.md */,
 			);
