@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		79C733471CC0CE270092E2F4 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79C7334E1CC0CE270092E2F4 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */; };
-		79C733531CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */; };
+		79C738651CC0D1320092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */; };
+		79C738681CC0D1880092E2F4 /* CouchbaseLiteSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		79C7334D1CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchbaseLiteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftTests.swift; sourceTree = "<group>"; };
 		79C733541CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				79C733451CC0CE270092E2F4 /* Sources */,
+				79C7335D1CC0CF830092E2F4 /* Vendors */,
 				79C733511CC0CE270092E2F4 /* Tests */,
 				79C733441CC0CE270092E2F4 /* Products */,
 			);
@@ -71,6 +74,7 @@
 		79C733451CC0CE270092E2F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */,
 				79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */,
 				79C733481CC0CE270092E2F4 /* Info.plist */,
 			);
@@ -84,6 +88,13 @@
 				79C733541CC0CE270092E2F4 /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		79C7335D1CC0CF830092E2F4 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 79C733391CC0CE260092E2F4;
 			productRefGroup = 79C733441CC0CE270092E2F4 /* Products */;
@@ -194,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C738681CC0D1880092E2F4 /* CouchbaseLiteSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79C733531CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */,
+				79C738651CC0D1320092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +327,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CouchbaseLiteSwift/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
@@ -330,7 +343,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CouchbaseLiteSwift/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
@@ -342,7 +355,7 @@
 		79C7335B1CC0CE270092E2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CouchbaseLiteSwiftTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,7 +365,7 @@
 		79C7335C1CC0CE270092E2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = CouchbaseLiteSwiftTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
