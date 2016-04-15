@@ -6,8 +6,7 @@
 //  Copyright © 2016 MANDELKIND. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CouchbaseLite/CouchbaseLite.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for CouchbaseLiteSwift.
 FOUNDATION_EXPORT double CouchbaseLiteSwiftVersionNumber;

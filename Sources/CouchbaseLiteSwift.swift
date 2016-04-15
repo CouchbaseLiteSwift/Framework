@@ -8,7 +8,6 @@
 
 import CouchbaseLite
 
-
 private var DatabaseDefaultConfigurationSingleton: CLSDatabaseConfiguration!
 
 public typealias CLSDatabaseSchemaMigration = (CLSDatabase,UInt64) throws -> Void
