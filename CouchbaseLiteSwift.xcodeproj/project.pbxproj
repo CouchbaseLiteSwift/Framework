@@ -15,7 +15,7 @@
 		792953BD1CC1216F00F18FCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */; };
 		792953BF1CC1217800F18FCF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BE1CC1217800F18FCF /* libsqlite3.tbd */; };
 		792953C11CC1218000F18FCF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953C01CC1218000F18FCF /* libz.tbd */; };
-		792953C31CC1223500F18FCF /* CouchbaseLite.framework in Copy CouchbaseLite */ = {isa = PBXBuildFile; fileRef = 792953971CC1211400F18FCF /* CouchbaseLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		796D0AC41CC43B9D00D90E77 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79B1FA861CC0D7CB005D4202 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 79B1FA851CC0D7CB005D4202 /* README.md */; };
 		79C7334E1CC0CE270092E2F4 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */; };
 		79C738651CC0D1320092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */; };
@@ -31,20 +31,6 @@
 			remoteInfo = CouchbaseLiteSwift;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		792953C21CC1222200F18FCF /* Copy CouchbaseLite */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				792953C31CC1223500F18FCF /* CouchbaseLite.framework in Copy CouchbaseLite */,
-			);
-			name = "Copy CouchbaseLite";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		792953971CC1211400F18FCF /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
@@ -185,6 +171,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				796D0AC41CC43B9D00D90E77 /* CouchbaseLiteSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +186,6 @@
 				79C7333F1CC0CE260092E2F4 /* Frameworks */,
 				79C733401CC0CE260092E2F4 /* Headers */,
 				79C733411CC0CE260092E2F4 /* Resources */,
-				792953C21CC1222200F18FCF /* Copy CouchbaseLite */,
 			);
 			buildRules = (
 			);
