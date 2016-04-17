@@ -1,4 +1,4 @@
 module CouchbaseLite {
-	header "../../Vendors/couchbase-lite-ios/CouchbaseLite.framework/Headers/CouchbaseLite.h"
+	header "../CouchbaseLite.framework/Headers/CouchbaseLite.h"
 	export *
 }
