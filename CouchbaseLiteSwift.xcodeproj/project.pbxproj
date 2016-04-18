@@ -12,7 +12,6 @@
 		792953BD1CC1216F00F18FCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */; };
 		792953BF1CC1217800F18FCF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BE1CC1217800F18FCF /* libsqlite3.tbd */; };
 		792953C11CC1218000F18FCF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953C01CC1218000F18FCF /* libz.tbd */; };
-		796D0AC41CC43B9D00D90E77 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796D0AC71CC43BE100D90E77 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796D0AC51CC43BD800D90E77 /* CouchbaseLite.framework */; };
 		79B1FA861CC0D7CB005D4202 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 79B1FA851CC0D7CB005D4202 /* README.md */; };
 		79C7334E1CC0CE270092E2F4 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */; };
@@ -40,7 +39,6 @@
 		797E78F61CC11AFF00BDE0C3 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		79B1FA851CC0D7CB005D4202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouchbaseLiteSwift.h; sourceTree = "<group>"; };
 		79C733481CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C7334D1CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchbaseLiteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftTests.swift; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */,
-				79C733461CC0CE270092E2F4 /* CouchbaseLiteSwift.h */,
 				79C733481CC0CE270092E2F4 /* Info.plist */,
 			);
 			path = Sources;
@@ -149,7 +146,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796D0AC41CC43B9D00D90E77 /* CouchbaseLiteSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
