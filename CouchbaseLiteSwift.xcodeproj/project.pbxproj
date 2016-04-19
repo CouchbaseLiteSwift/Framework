@@ -6,22 +6,7 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		798EA7071CC6398C00E1F359 /* iOS */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 798EA7081CC6398C00E1F359 /* Build configuration list for PBXAggregateTarget "iOS" */;
-			buildPhases = (
-				79EB59C81CC6DAE500CD8275 /* Universal Framework */,
-			);
-			dependencies = (
-			);
-			name = iOS;
-			productName = "CouchbaseLiteSwift-Universal";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		7984C1AA1CC69B4B002DEE55 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */; };
 		7984C1AB1CC69BC4002DEE55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BA1CC1216700F18FCF /* Security.framework */; };
 		7984C1AC1CC69BC8002DEE55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953B81CC1215F00F18FCF /* CFNetwork.framework */; };
 		7984C1AD1CC69BD5002DEE55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */; };
@@ -49,8 +34,6 @@
 		792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		792953BE1CC1217800F18FCF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		792953C01CC1218000F18FCF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		797E78F61CC11AFF00BDE0C3 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
-		7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Vendors/CouchbaseLite.framework; sourceTree = SOURCE_ROOT; };
 		79B1FA851CC0D7CB005D4202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733481CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +53,6 @@
 				7984C1AD1CC69BD5002DEE55 /* SystemConfiguration.framework in Frameworks */,
 				7984C1AC1CC69BC8002DEE55 /* CFNetwork.framework in Frameworks */,
 				7984C1AB1CC69BC4002DEE55 /* Security.framework in Frameworks */,
-				7984C1AA1CC69B4B002DEE55 /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,30 +67,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		797E78F41CC11ACA00BDE0C3 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */,
-				797E78F51CC11AE600BDE0C3 /* CouchbaseLite */,
-			);
-			name = Vendors;
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		797E78F51CC11AE600BDE0C3 /* CouchbaseLite */ = {
-			isa = PBXGroup;
-			children = (
-				797E78F61CC11AFF00BDE0C3 /* module.map */,
-			);
-			path = CouchbaseLite;
-			sourceTree = "<group>";
-		};
 		79C733391CC0CE260092E2F4 = {
 			isa = PBXGroup;
 			children = (
 				79B1FA851CC0D7CB005D4202 /* README.md */,
 				79C733451CC0CE270092E2F4 /* Sources */,
-				797E78F41CC11ACA00BDE0C3 /* Vendors */,
 				79C738971CC0D73A0092E2F4 /* Frameworks */,
 				79C733511CC0CE270092E2F4 /* Tests */,
 				79C733441CC0CE270092E2F4 /* Products */,
@@ -213,9 +176,6 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = MANDELKIND;
 				TargetAttributes = {
-					798EA7071CC6398C00E1F359 = {
-						CreatedOnToolsVersion = 7.3;
-					};
 					79C733421CC0CE260092E2F4 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -237,7 +197,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				798EA7071CC6398C00E1F359 /* iOS */,
 				79C733421CC0CE260092E2F4 /* CouchbaseLiteSwift */,
 				79C7334C1CC0CE270092E2F4 /* CouchbaseLiteSwiftTests */,
 			);
@@ -260,23 +219,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		79EB59C81CC6DAE500CD8275 /* Universal Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Universal Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\n#\n#\n# see https://medium.com/@heitorburger/static-libraries-frameworks-and-bitcode-6d8f784478a9#.3ap6q0cy2\n#\n#\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/Universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -scheme \"${PROJECT_NAME}\" -target \"${PROJECT_NAME}\" -configuration \"Release\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" ONLY_ACTIVE_ARCH=NO ENABLE_BITCODE=YES OTHER_CFLAGS=\"-fembed-bitcode\" BITCODE_GENERATION_MODE=\"bitcode\" clean archive\n#xcodebuild -target \"${PROJECT_NAME}\" -configuration \"Debug\" -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" ONLY_ACTIVE_ARCH=NO ENABLE_BITCODE=YES OTHER_CFLAGS=\"-fembed-bitcode-marker\" BITCODE_GENERATION_MODE=\"marker\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -LR \"${BUILD_DIR}/Release-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/Debug-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -LR \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\n#lipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/Debug-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/Release-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -LR \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79C7333E1CC0CE260092E2F4 /* Sources */ = {
@@ -307,24 +249,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		798EA7091CC6398C00E1F359 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BITCODE_GENERATION_MODE = marker;
-				OTHER_CFLAGS = "-fembed-bitcode-marker";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		798EA70A1CC6398C00E1F359 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BITCODE_GENERATION_MODE = bitcode;
-				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		79C733551CC0CE270092E2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -424,6 +348,7 @@
 		79C733581CC0CE270092E2F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = marker;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -439,6 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -449,6 +375,7 @@
 		79C733591CC0CE270092E2F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -464,6 +391,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -494,15 +422,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		798EA7081CC6398C00E1F359 /* Build configuration list for PBXAggregateTarget "iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				798EA7091CC6398C00E1F359 /* Debug */,
-				798EA70A1CC6398C00E1F359 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		79C7333D1CC0CE260092E2F4 /* Build configuration list for PBXProject "CouchbaseLiteSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
