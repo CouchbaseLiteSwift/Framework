@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "798EA7071CC6398C00E1F359"
-               BuildableName = "CouchbaseLiteSwift-Universal"
-               BlueprintName = "CouchbaseLiteSwift-Universal"
+               BuildableName = "iOS"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:CouchbaseLiteSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "798EA7071CC6398C00E1F359"
-            BuildableName = "CouchbaseLiteSwift-Universal"
-            BlueprintName = "CouchbaseLiteSwift-Universal"
+            BuildableName = "iOS"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:CouchbaseLiteSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "798EA7071CC6398C00E1F359"
-            BuildableName = "CouchbaseLiteSwift-Universal"
-            BlueprintName = "CouchbaseLiteSwift-Universal"
+            BuildableName = "iOS"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:CouchbaseLiteSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
