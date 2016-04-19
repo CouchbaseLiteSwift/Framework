@@ -21,12 +21,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		792953B91CC1215F00F18FCF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953B81CC1215F00F18FCF /* CFNetwork.framework */; };
-		792953BB1CC1216700F18FCF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BA1CC1216700F18FCF /* Security.framework */; };
-		792953BD1CC1216F00F18FCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */; };
-		792953BF1CC1217800F18FCF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BE1CC1217800F18FCF /* libsqlite3.tbd */; };
-		792953C11CC1218000F18FCF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953C01CC1218000F18FCF /* libz.tbd */; };
-		796D0AC71CC43BE100D90E77 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796D0AC51CC43BD800D90E77 /* CouchbaseLite.framework */; };
+		7984C1AA1CC69B4B002DEE55 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */; };
+		7984C1AB1CC69BC4002DEE55 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BA1CC1216700F18FCF /* Security.framework */; };
+		7984C1AC1CC69BC8002DEE55 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953B81CC1215F00F18FCF /* CFNetwork.framework */; };
+		7984C1AD1CC69BD5002DEE55 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */; };
+		7984C1AE1CC69BE0002DEE55 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BE1CC1217800F18FCF /* libsqlite3.tbd */; };
+		7984C1AF1CC69BE4002DEE55 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953C01CC1218000F18FCF /* libz.tbd */; };
 		79B1FA861CC0D7CB005D4202 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 79B1FA851CC0D7CB005D4202 /* README.md */; };
 		79C7334E1CC0CE270092E2F4 /* CouchbaseLiteSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */; };
 		79C738651CC0D1320092E2F4 /* CouchbaseLiteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */; };
@@ -49,8 +49,8 @@
 		792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		792953BE1CC1217800F18FCF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		792953C01CC1218000F18FCF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		796D0AC51CC43BD800D90E77 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		797E78F61CC11AFF00BDE0C3 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Vendors/CouchbaseLite.framework; sourceTree = SOURCE_ROOT; };
 		79B1FA851CC0D7CB005D4202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733481CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,12 +65,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792953C11CC1218000F18FCF /* libz.tbd in Frameworks */,
-				792953BF1CC1217800F18FCF /* libsqlite3.tbd in Frameworks */,
-				792953BD1CC1216F00F18FCF /* SystemConfiguration.framework in Frameworks */,
-				792953BB1CC1216700F18FCF /* Security.framework in Frameworks */,
-				792953B91CC1215F00F18FCF /* CFNetwork.framework in Frameworks */,
-				796D0AC71CC43BE100D90E77 /* CouchbaseLite.framework in Frameworks */,
+				7984C1AF1CC69BE4002DEE55 /* libz.tbd in Frameworks */,
+				7984C1AE1CC69BE0002DEE55 /* libsqlite3.tbd in Frameworks */,
+				7984C1AD1CC69BD5002DEE55 /* SystemConfiguration.framework in Frameworks */,
+				7984C1AC1CC69BC8002DEE55 /* CFNetwork.framework in Frameworks */,
+				7984C1AB1CC69BC4002DEE55 /* Security.framework in Frameworks */,
+				7984C1AA1CC69B4B002DEE55 /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		797E78F41CC11ACA00BDE0C3 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				796D0AC51CC43BD800D90E77 /* CouchbaseLite.framework */,
+				7984C1A81CC69B3E002DEE55 /* CouchbaseLite.framework */,
 				797E78F51CC11AE600BDE0C3 /* CouchbaseLite */,
 			);
 			name = Vendors;
@@ -273,7 +273,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\n\n# workaround for bitcode generation problem with Xcode 7.3\n# http://stackoverflow.com/questions/36184930/xcodebuild-7-3-cant-enable-bitcode\nunset TOOLCHAINS\n\n\n# https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+			shellScript = "#!/bin/sh\n\n\n# workaround for bitcode generation problem with Xcode 7.3\n# http://stackoverflow.com/questions/36184930/xcodebuild-7-3-cant-enable-bitcode\nunset TOOLCHAINS\n\n\n# https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos ENABLE_BITCODE=YES OTHER_CFLAGS=\"-fembed-bitcode\" BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ENABLE_BITCODE=YES OTHER_CFLAGS=\"-fembed-bitcode\" ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -361,10 +361,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -405,9 +407,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
