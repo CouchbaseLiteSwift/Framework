@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CouchbaseLiteSwift.xcscheme</key>
+		<key>CouchbaseLiteSwift-Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>CouchbaseLiteSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>798EA7071CC6398C00E1F359</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C733421CC0CE260092E2F4</key>
 		<dict>
 			<key>primary</key>
