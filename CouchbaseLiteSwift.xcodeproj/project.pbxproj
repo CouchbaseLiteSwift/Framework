@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790B36DD1CC83523006E6811 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		794144571CC81EAA00016741 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79992FBB1CC6EE7300D1C404 /* CouchbaseLite.framework */; };
 		795A2F941CC708AC0068F206 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953B81CC1215F00F18FCF /* CFNetwork.framework */; };
 		795A2F951CC708B00068F206 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BA1CC1216700F18FCF /* Security.framework */; };
@@ -190,6 +191,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouchbaseLiteSwift.h; sourceTree = "<group>"; };
 		792953B81CC1215F00F18FCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		792953BA1CC1216700F18FCF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -285,6 +287,7 @@
 		79C733451CC0CE270092E2F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */,
 				79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */,
 				79C733481CC0CE270092E2F4 /* Info.plist */,
 			);
@@ -327,6 +330,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				790B36DD1CC83523006E6811 /* CouchbaseLiteSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
