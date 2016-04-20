@@ -601,7 +601,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CouchbaseLite.framework\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CouchbaseLite.framework\"";
+			shellScript = "cp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CouchbaseLite.framework\"\n\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CouchbaseLite.framework\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
