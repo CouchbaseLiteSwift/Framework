@@ -196,7 +196,6 @@
 		792953BE1CC1217800F18FCF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		792953C01CC1218000F18FCF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchbaseLite.xcodeproj; path = "Vendors/couchbase-lite-ios/CouchbaseLite.xcodeproj"; sourceTree = "<group>"; };
-		799930171CC7009D00D1C404 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		79B1FA851CC0D7CB005D4202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733481CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +203,8 @@
 		79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftTests.swift; sourceTree = "<group>"; };
 		79C733541CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwift.swift; sourceTree = "<group>"; };
+		79EEA5751CC719AC00F6E030 /* module.private.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.private.modulemap; sourceTree = "<group>"; };
+		79EEA5771CC71D8E00F6E030 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,20 +261,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		799930161CC7008200D1C404 /* CouchbaseLite */ = {
-			isa = PBXGroup;
-			children = (
-				799930171CC7009D00D1C404 /* module.map */,
-			);
-			path = CouchbaseLite;
-			sourceTree = "<group>";
-		};
 		79C733391CC0CE260092E2F4 = {
 			isa = PBXGroup;
 			children = (
 				79B1FA851CC0D7CB005D4202 /* README.md */,
 				79C733451CC0CE270092E2F4 /* Sources */,
-				799930161CC7008200D1C404 /* CouchbaseLite */,
+				79EEA5741CC719AC00F6E030 /* Module */,
 				79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */,
 				79C738971CC0D73A0092E2F4 /* Frameworks */,
 				79C733511CC0CE270092E2F4 /* Tests */,
@@ -318,6 +311,15 @@
 				792953B81CC1215F00F18FCF /* CFNetwork.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79EEA5741CC719AC00F6E030 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				79EEA5771CC71D8E00F6E030 /* module.modulemap */,
+				79EEA5751CC719AC00F6E030 /* module.private.modulemap */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -750,11 +752,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Module/module.private.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CouchbaseLite";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Module";
 			};
 			name = Debug;
 		};
@@ -773,11 +776,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MODULEMAP_PRIVATE_FILE = "$(SRCROOT)/Module/module.private.modulemap";
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = swiss.mandelkind.CouchbaseLiteSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CouchbaseLite";
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}/Module";
 			};
 			name = Release;
 		};

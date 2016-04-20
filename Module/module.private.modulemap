@@ -1,4 +1,4 @@
-module CouchbaseLite {
+explicit module CLSFramework.CouchbaseLite{
 	header "../Vendors/couchbase-lite-ios/Source/API/CouchbaseLite.h"
 	export *
 }

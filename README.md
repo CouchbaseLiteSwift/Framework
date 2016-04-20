@@ -2,6 +2,16 @@
 
 This Swift wrapper for the [Couchbase Lite iOS](https://github.com/couchbase/couchbase-lite-ios) makes working with Couchbase Lite even easier. Have a brief look at the following examples and you'll get a feeling of how easy working with CouchbaseLite becomes.
 
+# Installation
+
+```
+$: git submodule add https://gitlab.com/couchbaseliteswift/framework.git 'Vendors/CouchbaseLiteSwift'
+$: cd Vendors/CouchbaseLiteSwift/
+$: git submodule update --init --recursive
+```
+
+# API
+
 ## CLSModel
 
 ### Define
@@ -93,3 +103,13 @@ let people = CLSQuery<CLSModel>(type: Person.self)
 
 A helper class, which allows you to enrich regular file attachments with meta data.
 You are able to receive and set all attachments `[CLSAttachment]?` by using the `CLSModel.attachments` property.
+
+## CLSAttachmentType
+
+## CLSDatabase
+
+## CLSDatabaseConfiguration
+
+## CLSDatabaseSetup
+
+## CLSDatabaseSchemaMigration
