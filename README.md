@@ -6,13 +6,54 @@ This Swift wrapper for the [Couchbase Lite iOS](https://github.com/couchbase/cou
 
 See https://gitlab.com/couchbaseliteswift/examples for a working example.
 
-# Installation
+# Building the Framework
+
+## Checking out the Code
+
+1. Use Git to clone the CouchbaseLiteSwift repository to your local disk
 
 ```
-$: git submodule add https://gitlab.com/couchbaseliteswift/framework.git 'Vendors/CouchbaseLiteSwift'
-$: cd Vendors/CouchbaseLiteSwift/
-$: git submodule update --init --recursive
+$: git clone https://gitlab.com/couchbaseliteswift/framework.git CouchbaseLiteSwift
 ```
+
+2. Move into the frameworks directory:
+
+```
+$: cd CouchbaseLiteSwift
+```
+
+3. (Optional) If you want to build a nonstandard branch, enter `git checkout` followed by the branch name:
+
+```
+$: git checkout development
+```
+
+4. Checkout the CouchbaseLiteSwift dependencies
+
+```
+$: git submodule update --recursive
+```
+
+## Building
+
+Open CouchbaseLiteSwift.xcworkspace
+
+```
+$: open CouchbaseLiteSwift.xcworkspace
+```
+
+The next step depends on whether you want an **optimized** or a **debug** build:
+
+### Optimized Build
+Choose "Archive" from the "Product" menu.
+Open the Organizer window's Archives tab to find the archive.
+Right-click the archive and choose "Show In Finder".
+Right-click the archive icon in the Finder and choose "Show Package Contents".
+The framework will be inside the "Products" subfolder.
+
+### Debug Build
+Choose "Build" from the "Product" menu.
+Finding the framework can be tricky as it's buried deep in the build directory, whose location varies depending on your Xcode preferences. Look at the build log in the log navigator pane and the last line of output should include its path.
 
 # API
 

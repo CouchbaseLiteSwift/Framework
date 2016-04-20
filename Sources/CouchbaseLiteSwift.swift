@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import CLSFramework
-import CLSFramework.CouchbaseLite
+import CouchbaseLite
 
 
 private var DatabaseDefaultConfigurationSingleton: CLSDatabaseConfiguration!

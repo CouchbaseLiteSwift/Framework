@@ -1,0 +1,4 @@
+module CouchbaseLite{
+	header "CouchbaseLite.framework/Headers/CouchbaseLite.h"
+	export *
+}
