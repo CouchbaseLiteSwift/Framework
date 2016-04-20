@@ -1,76 +1,95 @@
 # CouchbaseLiteSwift
 
-## A Swift wrapper for the Couchbase Lite iOS library.
+This Swift wrapper for the [Couchbase Lite iOS](https://github.com/couchbase/couchbase-lite-ios) makes working with Couchbase Lite even easier. Have a brief look at the following examples and you'll get a feeling of how easy working with CouchbaseLite becomes.
 
-This library is a Swift wrapper for the [couchbase-lite-ios API](https://github.com/couchbase/couchbase-lite-ios) to make your life easier.
+## CLSModel
 
-Here are some brief examples of what it can do for you:
-
-### Add new models to the database
+### Define
 
 ```
-try User.create([
+import Foundation
+import CouchbaseLiteSwift
+
+@objc(Person)
+class Person: CLSModel{
+@NSManaged var givenName: NSString?
+@NSManaged var familyName: NSString?
+@NSManaged var age: NSNumber?
+}
+```
+
+### Create
+```
+let person = try Person.create([
+"givenName": "Bibi",
+"familyName": "Blocksberg",
+"age": 14
+])
+```
+
+### Save
+```
+try person.save()
+```
+
+### Create & Save
+```
+try Person.create([
 "givenName": "Bibi",
 "familyName": "Blocksberg",
 "age": 14
 ]).save()
 ```
 
-### Easy Querying
-
+### Delete
 ```
-for user in CLSQuery<User>().conditions("givenName != '' AND familyName != ''"){
-print( user.familyName )
-}
+try person.deleteDocument()
 ```
 
-### Complex Querying
+## CLSQuery
+
+### Easy
 
 ```
-for user in CLSQuery<User>().conditions([
+let people = CLSQuery<Person>()
+.conditions("givenName != '' AND familyName != ''")
+```
+
+### Complex
+
+```
+let people = CLSQuery<Person>().conditions([
 "givenName != ''",
 "AND familyName != ''",
 "AND (",
 "age < 18",
 "OR age > 50",
 ")"])
-.sort("familyName", order: .DESC){
+.sort("familyName", order: .DESC)
+```
 
-print("\(user.givenName) \(user.familyName)")
+### Looping
+```
+for person in CLSQuery<Person>(){
+print(person.givenName, person.familyName)
 }
 ```
 
-### Delete models from the database
+### Bulk delete
 
 ```
-try CLSQuery<User>().conditions("familyName = 'Betschart‘").deleteDocuments()
+try CLSQuery<Person>()
+.conditions("familyName = 'Betschart'")
+.deleteDocuments()
 ```
 
-## More to come!
-Documentation is work in progress. Feel free to scan the code directly to get a deeper look.
-** Tip: Start with the CouchbaseLiteSwift/ViewController.swift **
-
-# CouchbaseLiteSwift API
-
-The CouchbaseLiteSwift API mainly consists of three easy to use classes: Query, AnyModel and AnyAttachment.
-
-## CLSQuery
-
-An easy wrapper for the Couchbase Lite QueryBuilder API. It takes care of caching, enumerating and filtering all of your AnyModels.
-
-## CLSModel
-
-A generic subclass of the Couchbase Lite CBLModel with additional, Swift like functionalities. You should make sure, your models are subclassing this one like follows:
+### Generic query
 
 ```
-@objc(User)
-class User: CLSModel{
-@NSManaged var givenName: String?
-@NSManaged var familyName: String?
-}
+let people = CLSQuery<CLSModel>(type: Person.self)
 ```
 
 ## CLSAttachment
 
 A helper class, which allows you to enrich regular file attachments with meta data.
-You are able to receive and set all attachments `[AnyAttachment]?` by using the AnyModel.attachments property.
+You are able to receive and set all attachments `[CLSAttachment]?` by using the `CLSModel.attachments` property.

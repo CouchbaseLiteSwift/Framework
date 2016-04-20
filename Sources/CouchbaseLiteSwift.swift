@@ -6,7 +6,9 @@
 //  Copyright © 2016 MANDELKIND. All rights reserved.
 //
 
+import Foundation
 import CouchbaseLite
+
 
 private var DatabaseDefaultConfigurationSingleton: CLSDatabaseConfiguration!
 
