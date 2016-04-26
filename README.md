@@ -12,7 +12,7 @@ CouchbaseLiteSwift can be included into any iOS project using [Carthage](https:/
 Simply add the following line to your Cartfile:
 
 ```
-git "https://gitlab.com/couchbaseliteswift/framework.git" "master"
+git "https://gitlab.com/couchbaseliteswift/framework.git" ~> 0.1
 ```
 
 Run `carthage update --platform ios`, and you should now have the latest version of CouchbaseLiteSwift and CouchbaseLite iOS in your Carthage folder.
