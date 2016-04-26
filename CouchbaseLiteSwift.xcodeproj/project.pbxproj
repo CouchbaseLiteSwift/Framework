@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790B36DD1CC83523006E6811 /* CouchbaseLiteSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		794144571CC81EAA00016741 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79992FBB1CC6EE7300D1C404 /* CouchbaseLite.framework */; };
+		794FE9C11CCF456E00D3683D /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794FE9C01CCF456E00D3683D /* CouchbaseLite.framework */; };
 		795A2F941CC708AC0068F206 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953B81CC1215F00F18FCF /* CFNetwork.framework */; };
 		795A2F951CC708B00068F206 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953BA1CC1216700F18FCF /* Security.framework */; };
 		795A2F961CC708B40068F206 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 792953C01CC1218000F18FCF /* libz.tbd */; };
@@ -20,167 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		795A2F861CC706F80068F206 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 27B0B7E61492BB6B00A817AD;
-			remoteInfo = "CBL iOS";
-		};
-		79992FB41CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 270B3DEA1489359000E0A926;
-			remoteInfo = "CBL Mac";
-		};
-		79992FB61CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2701C2101C4D5BDD006D7A99;
-			remoteInfo = "CBL Mac+SQLCipher";
-		};
-		79992FB81CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2701C14E1C49CFE6006D7A99;
-			remoteInfo = "CBL Mac library";
-		};
-		79992FBA1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27452BB81AB1180800327776;
-			remoteInfo = "CBL iOS framework";
-		};
-		79992FBC1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B7E71492BB6B00A817AD;
-			remoteInfo = "CBL iOS";
-		};
-		79992FBE1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B7A91492B83B00A817AD;
-			remoteInfo = "CBL iOS library";
-		};
-		79992FC01CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27452BAD1AB1156F00327776;
-			remoteInfo = "CBL iOS fat library";
-		};
-		79992FC21CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27C70694148864BA00F0F099;
-			remoteInfo = "CBL Mac Test App";
-		};
-		79992FC41CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27B0B80B1492C16300A817AD;
-			remoteInfo = "CBL iOS Test App";
-		};
-		79992FC61CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27731F2A1495CFEF00815D67;
-			remoteInfo = "CBL iOS Empty App";
-		};
-		79992FC81CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 275315D514ACF0A10065964D;
-			remoteInfo = "CBL Listener Mac";
-		};
-		79992FCA1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA147C3614BCAC3B0052DA4D;
-			remoteInfo = "CBL Listener iOS";
-		};
-		79992FCC1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA023B6414BCA94C008184BB;
-			remoteInfo = "Listener iOS Library";
-		};
-		79992FCE1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 270FE0C814C5008C005FF647;
-			remoteInfo = LiteServ;
-		};
-		79992FD01CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27538F5017F13B03004C3BFD;
-			remoteInfo = "LiteServ App";
-		};
-		79992FD21CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 273E9EED1C509F38003115A6;
-			remoteInfo = "CBL tvOS Test App";
-		};
-		79992FD41CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2700358B1A44E9270015B9F4;
-			remoteInfo = "CBL iOS Unit Tests";
-		};
-		79992FD61CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 272AA83F1A48D835004B8D55;
-			remoteInfo = "CBL Mac Unit Tests";
-		};
-		79992FD81CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 273E9F021C509F39003115A6;
-			remoteInfo = "CBL tvOS Unit Tests";
-		};
-		79992FDA1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E66ACF1A7305B10091DA3F;
-			remoteInfo = "CBL SQLite Storage";
-		};
-		79992FDC1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 27E66B431A7307590091DA3F;
-			remoteInfo = "CBL ForestDB Storage";
-		};
-		79992FDE1CC6EE7300D1C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 930FE55E1C58562B008107A0;
-			remoteInfo = CBLJSViewCompiler;
-		};
 		79C7334F1CC0CE270092E2F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 79C7333A1CC0CE260092E2F4 /* Project object */;
@@ -191,13 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouchbaseLiteSwift.h; sourceTree = "<group>"; };
 		792953B81CC1215F00F18FCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		792953BA1CC1216700F18FCF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		792953BE1CC1217800F18FCF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		792953C01CC1218000F18FCF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchbaseLite.xcodeproj; path = "Vendors/couchbase-lite-ios/CouchbaseLite.xcodeproj"; sourceTree = "<group>"; };
+		794FE9A81CCF39B700D3683D /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		794FE9C01CCF456E00D3683D /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = Carthage/Build/iOS/CouchbaseLite.framework; sourceTree = "<group>"; };
 		79B1FA851CC0D7CB005D4202 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		79C733431CC0CE270092E2F4 /* CouchbaseLiteSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CouchbaseLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C733481CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -205,7 +43,6 @@
 		79C733521CC0CE270092E2F4 /* CouchbaseLiteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftTests.swift; sourceTree = "<group>"; };
 		79C733541CC0CE270092E2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwift.swift; sourceTree = "<group>"; };
-		79EEA5771CC71D8E00F6E030 /* module.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,12 +50,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794144571CC81EAA00016741 /* CouchbaseLite.framework in Frameworks */,
 				795A2F981CC708C10068F206 /* SystemConfiguration.framework in Frameworks */,
 				795A2F971CC708B90068F206 /* libsqlite3.tbd in Frameworks */,
 				795A2F961CC708B40068F206 /* libz.tbd in Frameworks */,
 				795A2F951CC708B00068F206 /* Security.framework in Frameworks */,
 				795A2F941CC708AC0068F206 /* CFNetwork.framework in Frameworks */,
+				794FE9C11CCF456E00D3683D /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,42 +70,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79992F971CC6EE7200D1C404 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				79992FB51CC6EE7300D1C404 /* CouchbaseLite.framework */,
-				79992FB71CC6EE7300D1C404 /* CouchbaseLite.framework */,
-				79992FB91CC6EE7300D1C404 /* libCouchbaseLite.a */,
-				79992FBB1CC6EE7300D1C404 /* CouchbaseLite.framework */,
-				79992FBD1CC6EE7300D1C404 /* CouchbaseLite.framework */,
-				79992FBF1CC6EE7300D1C404 /* libCouchbaseLite.a */,
-				79992FC11CC6EE7300D1C404 /* libCouchbaseLiteFat.a */,
-				79992FC31CC6EE7300D1C404 /* Couchbase Lite Demo.app */,
-				79992FC51CC6EE7300D1C404 /* CBL Test.app */,
-				79992FC71CC6EE7300D1C404 /* Couchbase Lite Empty App.app */,
-				79992FC91CC6EE7300D1C404 /* CouchbaseLiteListener.framework */,
-				79992FCB1CC6EE7300D1C404 /* CouchbaseLiteListener.framework */,
-				79992FCD1CC6EE7300D1C404 /* libCouchbaseLiteListener.a */,
-				79992FCF1CC6EE7300D1C404 /* LiteServ */,
-				79992FD11CC6EE7300D1C404 /* LiteServ.app */,
-				79992FD31CC6EE7300D1C404 /* CBL tvOS Test App.app */,
-				79992FD51CC6EE7300D1C404 /* CBL iOS Unit Tests.xctest */,
-				79992FD71CC6EE7300D1C404 /* CBL Mac Unit Tests.xctest */,
-				79992FD91CC6EE7300D1C404 /* CBL tvOS Unit Tests.xctest */,
-				79992FDB1CC6EE7300D1C404 /* libCBLSQLiteStorage.a */,
-				79992FDD1CC6EE7300D1C404 /* libCBLForestDBStorage.a */,
-				79992FDF1CC6EE7300D1C404 /* libCBLJSViewCompiler.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		79C733391CC0CE260092E2F4 = {
 			isa = PBXGroup;
 			children = (
+				794FE9A81CCF39B700D3683D /* Cartfile */,
 				79B1FA851CC0D7CB005D4202 /* README.md */,
 				79C733451CC0CE270092E2F4 /* Sources */,
-				79EEA5741CC719AC00F6E030 /* CouchbaseLite */,
-				79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */,
 				79C738971CC0D73A0092E2F4 /* Frameworks */,
 				79C733511CC0CE270092E2F4 /* Tests */,
 				79C733441CC0CE270092E2F4 /* Products */,
@@ -287,7 +94,6 @@
 		79C733451CC0CE270092E2F4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				790B36C51CC834C3006E6811 /* CouchbaseLiteSwift.h */,
 				79C738671CC0D1870092E2F4 /* CouchbaseLiteSwift.swift */,
 				79C733481CC0CE270092E2F4 /* Info.plist */,
 			);
@@ -306,6 +112,7 @@
 		79C738971CC0D73A0092E2F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				794FE9C01CCF456E00D3683D /* CouchbaseLite.framework */,
 				792953C01CC1218000F18FCF /* libz.tbd */,
 				792953BE1CC1217800F18FCF /* libsqlite3.tbd */,
 				792953BC1CC1216F00F18FCF /* SystemConfiguration.framework */,
@@ -315,14 +122,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		79EEA5741CC719AC00F6E030 /* CouchbaseLite */ = {
-			isa = PBXGroup;
-			children = (
-				79EEA5771CC71D8E00F6E030 /* module.map */,
-			);
-			path = CouchbaseLite;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -330,7 +129,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790B36DD1CC83523006E6811 /* CouchbaseLiteSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +148,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				795A2F871CC706F80068F206 /* PBXTargetDependency */,
 			);
 			name = CouchbaseLiteSwift;
 			productName = CouchbaseLiteSwift;
@@ -404,12 +201,6 @@
 			mainGroup = 79C733391CC0CE260092E2F4;
 			productRefGroup = 79C733441CC0CE270092E2F4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 79992F971CC6EE7200D1C404 /* Products */;
-					ProjectRef = 79992F961CC6EE7200D1C404 /* CouchbaseLite.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				79C733421CC0CE260092E2F4 /* CouchbaseLiteSwift */,
@@ -417,163 +208,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		79992FB51CC6EE7300D1C404 /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLite.framework;
-			remoteRef = 79992FB41CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FB71CC6EE7300D1C404 /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLite.framework;
-			remoteRef = 79992FB61CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FB91CC6EE7300D1C404 /* libCouchbaseLite.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLite.a;
-			remoteRef = 79992FB81CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FBB1CC6EE7300D1C404 /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLite.framework;
-			remoteRef = 79992FBA1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FBD1CC6EE7300D1C404 /* CouchbaseLite.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CouchbaseLite.framework;
-			remoteRef = 79992FBC1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FBF1CC6EE7300D1C404 /* libCouchbaseLite.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLite.a;
-			remoteRef = 79992FBE1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FC11CC6EE7300D1C404 /* libCouchbaseLiteFat.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLiteFat.a;
-			remoteRef = 79992FC01CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FC31CC6EE7300D1C404 /* Couchbase Lite Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Couchbase Lite Demo.app";
-			remoteRef = 79992FC21CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FC51CC6EE7300D1C404 /* CBL Test.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CBL Test.app";
-			remoteRef = 79992FC41CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FC71CC6EE7300D1C404 /* Couchbase Lite Empty App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Couchbase Lite Empty App.app";
-			remoteRef = 79992FC61CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FC91CC6EE7300D1C404 /* CouchbaseLiteListener.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CouchbaseLiteListener.framework;
-			remoteRef = 79992FC81CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FCB1CC6EE7300D1C404 /* CouchbaseLiteListener.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CouchbaseLiteListener.framework;
-			remoteRef = 79992FCA1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FCD1CC6EE7300D1C404 /* libCouchbaseLiteListener.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCouchbaseLiteListener.a;
-			remoteRef = 79992FCC1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FCF1CC6EE7300D1C404 /* LiteServ */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LiteServ;
-			remoteRef = 79992FCE1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FD11CC6EE7300D1C404 /* LiteServ.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = LiteServ.app;
-			remoteRef = 79992FD01CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FD31CC6EE7300D1C404 /* CBL tvOS Test App.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CBL tvOS Test App.app";
-			remoteRef = 79992FD21CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FD51CC6EE7300D1C404 /* CBL iOS Unit Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "CBL iOS Unit Tests.xctest";
-			remoteRef = 79992FD41CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FD71CC6EE7300D1C404 /* CBL Mac Unit Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "CBL Mac Unit Tests.xctest";
-			remoteRef = 79992FD61CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FD91CC6EE7300D1C404 /* CBL tvOS Unit Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "CBL tvOS Unit Tests.xctest";
-			remoteRef = 79992FD81CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FDB1CC6EE7300D1C404 /* libCBLSQLiteStorage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCBLSQLiteStorage.a;
-			remoteRef = 79992FDA1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FDD1CC6EE7300D1C404 /* libCBLForestDBStorage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCBLForestDBStorage.a;
-			remoteRef = 79992FDC1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		79992FDF1CC6EE7300D1C404 /* libCBLJSViewCompiler.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libCBLJSViewCompiler.a;
-			remoteRef = 79992FDE1CC6EE7300D1C404 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		79C733411CC0CE260092E2F4 /* Resources */ = {
@@ -629,11 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		795A2F871CC706F80068F206 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CBL iOS";
-			targetProxy = 795A2F861CC706F80068F206 /* PBXContainerItemProxy */;
-		};
 		79C733501CC0CE270092E2F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 79C733421CC0CE260092E2F4 /* CouchbaseLiteSwift */;
@@ -748,6 +377,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -771,6 +404,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.framework";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
