@@ -139,7 +139,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79C733571CC0CE270092E2F4 /* Build configuration list for PBXNativeTarget "CouchbaseLiteSwift" */;
 			buildPhases = (
-				795A2F9A1CC70A120068F206 /* Copy CouchbaseLite Universal */,
 				79C7333E1CC0CE260092E2F4 /* Sources */,
 				79C7333F1CC0CE260092E2F4 /* Frameworks */,
 				79C733401CC0CE260092E2F4 /* Headers */,
@@ -225,23 +224,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		795A2F9A1CC70A120068F206 /* Copy CouchbaseLite Universal */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy CouchbaseLite Universal";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "rm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CouchbaseLite.framework\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/CouchbaseLite.framework\"\n\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CouchbaseLite.framework\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/CouchbaseLite.framework\"\n\nrm -rf \"${PROJECT_DIR}/CouchbaseLite/CouchbaseLite.framework\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iOS-universal/CouchbaseLite.framework\" \"${PROJECT_DIR}/CouchbaseLite/CouchbaseLite.framework\"";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79C7333E1CC0CE260092E2F4 /* Sources */ = {

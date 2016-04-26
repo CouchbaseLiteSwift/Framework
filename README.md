@@ -15,6 +15,8 @@ Simply add the following line to your Cartfile:
 git "https://gitlab.com/couchbaseliteswift/framework.git" "master"
 ```
 
+Run `carthage update --platform ios`, and you should now have the latest version of CouchbaseLiteSwift and CouchbaseLite iOS in your Carthage folder.
+
 # Building the Framework
 
 ## Checking out the Code
