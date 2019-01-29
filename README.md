@@ -1,3 +1,7 @@
+# !! DEPRECATED !!
+
+This repository is no longer actively maintained.
+
 # CouchbaseLiteSwift
 
 This Swift wrapper for the [Couchbase Lite iOS](https://github.com/couchbase/couchbase-lite-ios) makes working with Couchbase Lite even easier. Have a brief look at the following examples and you'll get a feeling of how easy working with CouchbaseLite becomes.
